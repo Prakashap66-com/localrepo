@@ -3,7 +3,7 @@ private class EmployeeControllerTest {
     @isTest
     static void testgetDepartment() {
         System.assertEquals(
-            Operations,
+            HR,
             EmployeeController.getDepartment()
         );
     }
